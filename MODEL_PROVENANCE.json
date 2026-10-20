@@ -1,0 +1,39 @@
+{
+  "id": "nrt28-32-3p",
+  "model": "NRT28-32 · 3P",
+  "modelSourceCategory": "原厂模型（人工整理材质和观察分组）",
+  "selfBuilt3DMechanismInCurrentRuntime": false,
+  "twoDimensionalPrinciple": "本项目程序绘制的二维教学示意，不是原厂工程图",
+  "factoryInputs": [
+    {
+      "file": "E:\\vibecoding\\数字教材相关\\模型\\NRT28-32 3P熔断器-底座三维模型202011.stp",
+      "name": "NRT28-32 3P熔断器-底座三维模型202011.stp",
+      "sha256": "8b6688d5720e997a6e0553cdb721689e9720ac805a2ee28b55c1545f0e771d8d",
+      "role": "原厂原始CAD",
+      "url": "https://www.chintglobal.com/gb/en/products/low-voltage/iec/secondary-power-distribution/nrt28.html"
+    }
+  ],
+  "factoryTriangles": 259792,
+  "sourceFullSha256": "26a38e33dd26e2c4786e25225da4486821cb0c985874e5cf35e156d5ada73a25",
+  "humanChanges": "原曲面观察编组、材质与灯光整理；不将其称作原厂材料实测或厂家维修拆装树。",
+  "unavailableOrUnverifiedInternalData": "当前是原厂底座CAD；未含独立熔断体和内部熔丝。已找到官方RT28-32熔断体外形源，但未确认与底座的准确装配位姿，因此未硬装入本教材。",
+  "files": [
+    {
+      "file": "assets/model-3a73b3f2b716.glb",
+      "category": "原厂几何压缩运行模型"
+    },
+    {
+      "file": "E:\\vibecoding\\数字教材相关\\outputs\\原厂模型真实性核查_20261020\\nrt28-32-3p\\factory-only\\model-factory-full.glb",
+      "category": "原厂几何完整制作GLB"
+    },
+    {
+      "file": "E:\\vibecoding\\数字教材相关\\outputs\\原厂模型真实性核查_20261020\\nrt28-32-3p\\factory-only\\nrt28-32-3p-factory-only.blend",
+      "category": "原厂几何可编辑Blender"
+    },
+    {
+      "file": "app.js",
+      "category": "本项目交互与二维示意程序"
+    }
+  ],
+  "legacyMixedSource": "E:\\vibecoding\\数字教材相关\\outputs\\元器件全集制作\\nrt28-32-3p\\sources\\model-full.glb"
+}
